@@ -1,15 +1,24 @@
 # Chasbot
 
-Chasbot is a discord bot, lovingly based on a former choir teacher from my high school.
+Chasbot is a discord bot, *lovingly* based on a former choir teacher from my high school.
 
 ## Features
 
 Chasbot can:
 * respond to messages with certain keywords in them, such as "chas", "jazz", "gay", "shut up", "bitch", and words that end in 'r'
+
+  * ![jazz command demonstration](/Examples/jazz.gif)
+  * ![chas command demonstration](/Examples/chas.gif)
 * respond to the following commands:
   * ```chasbot scat```: chasbot will do a jazz scat
-  * ```chasbot copypasta```: chasbot will send a random copypasta from the r/copypasta subreddit
+  
+    * ![scat command demonstration](/Examples/scat.gif)
+  * ```chasbot copypasta```: chasbot will send a random copypasta from the r/copypasta subreddit (this can take a little while)
+  
+    * ![copypasta command demonstration](/Examples/copypasta.gif)
   * ```chasbot jazzscale [name]```: chasbot will rank [name]'s jazz ability
+  
+    * ![jazzscale command demonstration](/Examples/jazzscale.gif)
 
 ## Set Up
 
