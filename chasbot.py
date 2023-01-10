@@ -1,5 +1,6 @@
 from http import client
 import os
+import discord
 from discord.ext import commands
 from dotenv import dotenv_values
 import praw
@@ -18,7 +19,10 @@ reddit = praw.Reddit(client_id=redditClientID,
                      user_agent="Discord Bot by Luke Sellmayer")
 subreddit = reddit.subreddit("copypasta")
 
-bot = commands.Bot(command_prefix='chasbot ')
+intents = discord.Intents.default()
+intents.message_content = True
+
+bot = commands.Bot(command_prefix = 'chasbot ', intents = intents)
 
 print("Chasbot is running...")
 
